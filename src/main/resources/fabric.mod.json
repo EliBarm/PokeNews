@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "pokenews",
+	"version": "${version}",
+	"name": "PokeNews",
+	"description": "Clear wild Pokemon on a timer for Cobblemon mod but can be modified for any mod.",
+	"authors": [
+		"Elyygee"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": ""
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/pokenews/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.cobannouncer.PokeNews"
+		],
+		"client": [
+			"com.cobannouncer.PokeNewsClient"
+		]
+	},
+	"mixins": [
+		"pokenewsr.mixins.json",
+		{
+			"config": "pokenews.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
