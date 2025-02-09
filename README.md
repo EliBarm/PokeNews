@@ -5,5 +5,6 @@ Team Rocket is sweeping the area! This mod automatically clears wild Pokémon on
 Stay informed, strategize your captures, and don’t let your favorites disappear!
 
 /pokenews - Check next wipe.
+
 /pokenews reload - Reload config.
 Happy catching!
