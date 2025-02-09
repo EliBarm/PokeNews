@@ -30,7 +30,6 @@ import static net.minecraft.server.command.CommandManager.literal;
  * Author: Elyygee
  * This mod is open-source.
  *
- * Restores the older two-pass approach:
  *   1) Convert "&#RRGGBB" to '§x§R§R§G§G§B§B'
  *   2) Convert standard format codes like &l, &c, etc. to '§l', '§c'.
  * This ensures &l (bold), &r, &c, etc. show up as styling in chat.
