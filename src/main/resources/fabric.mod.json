@@ -15,20 +15,14 @@
 	"icon": "assets/pokenews/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"com.cobannouncer.PokeNews"
-		],
-		"client": [
-			"com.cobannouncer.PokeNewsClient"
-		]
-	},
-	"mixins": [
-		"pokenewsr.mixins.json",
-		{
-			"config": "pokenews.client.mixins.json",
-			"environment": "client"
-		}
-	],
+	  "main": [
+		"com.cobannouncer.PokeNews"
+	  ],
+	  "client": [
+		"com.cobannouncer.PokeNewsClient"
+	  ]
+	}
+	,
 	"depends": {
 		"fabricloader": ">=0.16.10",
 		"minecraft": "~1.21.1",
